@@ -16,6 +16,8 @@ public class C_box {
      */
     public static void main(String[] args) {
         cBox c = new cBox();
+        c.setResizable(false);
+        c.setVisible(true);
     }
     
 }
