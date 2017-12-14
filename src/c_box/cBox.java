@@ -610,8 +610,7 @@ public class cBox extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-    String bip = "damn daniel.mp3";
-    Media hit = new Media(new File(bip).toURI().toString());
+    Media hit = new Media(new File("/c_box/damn daniel.mp3").toURI().toString());
     MediaPlayer mediaPlayer = new MediaPlayer(hit);
     mediaPlayer.play();
     }//GEN-LAST:event_jButton2ActionPerformed
